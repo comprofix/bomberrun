@@ -1,5 +1,7 @@
 # Personal working documents and agent-specific local configuration (not tracked).
-# AGENTS.md is the canonical, shared instruction file; CLAUDE.md is its compatibility entry point.
+# AGENTS.md is a link to the canonical copy in the private project-notes repository;
+# CLAUDE.md is the tracked compatibility entry point that points to it.
+AGENTS.md
 CLAUDE.local.md
 DESIGN.md
 PLAN.md
