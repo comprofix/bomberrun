@@ -51,13 +51,19 @@ untracked configuration supported by the chosen coding agent.
 ## 4. Working with the user
 
 - **Confirm before** creating, changing or deleting files, installing modules,
-  or making commits or pushes. Reading and inspecting are fine. Planning and
-  discussion are not a go-ahead.
-- **Never commit or push** unless the user says so for that specific commit or
-  push.
-- **One commit per change.** When a milestone's checks pass, report back and
-  wait. Once the user approves, commit each distinct change on its own (one
-  fix, feature or milestone per commit, never bundled).
+  or pushing. Reading and inspecting are fine. Planning and discussion are
+  not a go-ahead.
+- **Local commits.** The user's approval to implement a task also authorises
+  local commits of the completed, verified changes within that task's
+  approved scope. Do not ask for approval of each commit. Commit before
+  reporting the work complete, and never include unrelated or user-made
+  changes.
+- **Never push, and never create or push a release tag,** unless the user
+  explicitly approves it. Application-repository pushes and release tags
+  always need that explicit approval.
+- **One commit per change.** Commit each distinct change on its own (one
+  fix, feature or milestone per commit, never bundled). When a milestone's
+  checks pass, commit it, then report back.
 - **Commit messages follow Conventional Commits 1.0.0:**
   `type(scope): description`, with an optional body and footers.
   - Types: `feat` (something new for the player), `fix` (a bug fix), `docs`,
