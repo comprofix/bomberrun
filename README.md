@@ -2,6 +2,18 @@
 
 Created from [gameskeleton](https://github.com/comprofix/gameskeleton) v0.5.1.
 
+A 1943bj-inspired arcade shooter with faithful combat, enemy movement, scoring, weapons, power-ups, and life-bar mechanics, expanded with original worlds, themes, and bosses.
+
+## Download
+
+Builds for Windows and Linux (64-bit) are on the
+[Releases](https://github.com/comprofix/bomberrun/releases) page, with `SHA256SUMS.txt` to check
+them against.
+
+- **Windows:** unzip `bomberrun-vX.Y.Z-windows-amd64.zip` and run `bomberrun.exe`.
+- **Linux:** extract `bomberrun-vX.Y.Z-linux-amd64.tar.gz` and run `./bomberrun`.
+  It needs OpenGL, X11 and ALSA, which desktop systems already have.
+
 ## Requirements
 
 - Go 1.27 or later
