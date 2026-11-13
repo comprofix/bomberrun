@@ -4,10 +4,27 @@ Shared, agent-neutral instructions for this game. This file is tracked in git. A
 
 ## 1. Project
 
-**Bomber Run**: <one-line description of the game and its fixed decisions>.
+**Bomber Run**: a 1943bj-inspired arcade shooter with faithful combat, enemy
+movement, scoring, weapons, power-ups and life-bar mechanics, expanded with
+original worlds, themes and bosses. A new, original game built as a
+gameplay-faithful remake of 1943bj (the facts-only rule in §9 applies), with
+original levels, themes, bosses and art.
 
-Replace this section with the game's description and fixed decisions once
-DESIGN.md and PLAN.md have been prepared.
+Fixed decisions:
+
+- Both looks: Smooth (1280×720) first and Modern pixel art (640×360) second,
+  switched in Options.
+- Playfield at the original's 7:8 proportions with the HUD to the right
+  (provisional layout, refined later).
+- Nothing is reused from any earlier Bomber Run build.
+- No copied 1943bj level layouts, themes, backgrounds or sprite artwork; no
+  1942 behaviour as a second baseline; no expansion features before the
+  1943bj-based baseline is playable.
+- Behaviour taken from 1943bj is researched and recorded in DESIGN.md before
+  it is coded (the shared reference research workflow).
+- CI/CD is set up: a pushed `vX.Y.Z` tag builds and publishes a release (§5).
+  The first release needs the game's own program icon (§7).
+- Remote: `git@github.com:comprofix/bomberrun.git`.
 
 ## 2. Working documents
 
