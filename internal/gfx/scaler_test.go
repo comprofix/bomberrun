@@ -3,7 +3,7 @@ package gfx
 import (
 	"testing"
 
-	"github.com/comprofix/gameskeleton/internal/config"
+	"github.com/comprofix/bomberrun/internal/config"
 )
 
 func TestFitInteger(t *testing.T) {

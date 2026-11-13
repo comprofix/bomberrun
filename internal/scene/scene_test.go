@@ -6,12 +6,12 @@ import (
 
 	"github.com/hajimehoshi/ebiten/v2"
 
-	"github.com/comprofix/gameskeleton/internal/audio"
-	"github.com/comprofix/gameskeleton/internal/config"
-	"github.com/comprofix/gameskeleton/internal/gfx"
-	"github.com/comprofix/gameskeleton/internal/input"
-	"github.com/comprofix/gameskeleton/internal/score"
-	"github.com/comprofix/gameskeleton/internal/ui"
+	"github.com/comprofix/bomberrun/internal/audio"
+	"github.com/comprofix/bomberrun/internal/config"
+	"github.com/comprofix/bomberrun/internal/gfx"
+	"github.com/comprofix/bomberrun/internal/input"
+	"github.com/comprofix/bomberrun/internal/score"
+	"github.com/comprofix/bomberrun/internal/ui"
 )
 
 // harness runs scenes headless: Update only, never Draw.

@@ -14,15 +14,15 @@ import (
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
 
-	"github.com/comprofix/gameskeleton/assets"
-	"github.com/comprofix/gameskeleton/internal/audio"
-	"github.com/comprofix/gameskeleton/internal/config"
-	"github.com/comprofix/gameskeleton/internal/debug"
-	"github.com/comprofix/gameskeleton/internal/gfx"
-	"github.com/comprofix/gameskeleton/internal/input"
-	"github.com/comprofix/gameskeleton/internal/scene"
-	"github.com/comprofix/gameskeleton/internal/score"
-	"github.com/comprofix/gameskeleton/internal/ui"
+	"github.com/comprofix/bomberrun/assets"
+	"github.com/comprofix/bomberrun/internal/audio"
+	"github.com/comprofix/bomberrun/internal/config"
+	"github.com/comprofix/bomberrun/internal/debug"
+	"github.com/comprofix/bomberrun/internal/gfx"
+	"github.com/comprofix/bomberrun/internal/input"
+	"github.com/comprofix/bomberrun/internal/scene"
+	"github.com/comprofix/bomberrun/internal/score"
+	"github.com/comprofix/bomberrun/internal/ui"
 )
 
 // Saved is what was loaded from the saved files, and where they live.

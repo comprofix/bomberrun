@@ -7,8 +7,8 @@ import (
 
 	"github.com/hajimehoshi/ebiten/v2"
 
-	"github.com/comprofix/gameskeleton/internal/gfx"
-	"github.com/comprofix/gameskeleton/internal/input"
+	"github.com/comprofix/bomberrun/internal/gfx"
+	"github.com/comprofix/bomberrun/internal/input"
 )
 
 func TestContains(t *testing.T) {

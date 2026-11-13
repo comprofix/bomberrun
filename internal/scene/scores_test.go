@@ -5,8 +5,8 @@ import (
 
 	"github.com/hajimehoshi/ebiten/v2"
 
-	"github.com/comprofix/gameskeleton/internal/config"
-	"github.com/comprofix/gameskeleton/internal/input"
+	"github.com/comprofix/bomberrun/internal/config"
+	"github.com/comprofix/bomberrun/internal/input"
 )
 
 func TestTallyCountsUpThenContinues(t *testing.T) {

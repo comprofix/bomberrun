@@ -19,10 +19,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/comprofix/gameskeleton/internal/bitfont"
-	"github.com/comprofix/gameskeleton/internal/config"
-	"github.com/comprofix/gameskeleton/internal/gfx/palettes"
-	"github.com/comprofix/gameskeleton/internal/spritegrid"
+	"github.com/comprofix/bomberrun/internal/bitfont"
+	"github.com/comprofix/bomberrun/internal/config"
+	"github.com/comprofix/bomberrun/internal/gfx/palettes"
+	"github.com/comprofix/bomberrun/internal/spritegrid"
 )
 
 type options struct {

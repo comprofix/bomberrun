@@ -4,8 +4,8 @@ import (
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/vector"
 
-	"github.com/comprofix/gameskeleton/internal/config"
-	"github.com/comprofix/gameskeleton/internal/gfx"
+	"github.com/comprofix/bomberrun/internal/config"
+	"github.com/comprofix/bomberrun/internal/gfx"
 )
 
 // FadeTicks is the length of each half of a transition (fade out, then fade

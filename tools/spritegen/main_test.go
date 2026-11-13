@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/comprofix/gameskeleton/internal/gfx/palettes/resurrect64"
-	"github.com/comprofix/gameskeleton/internal/spritegrid"
+	"github.com/comprofix/bomberrun/internal/gfx/palettes/resurrect64"
+	"github.com/comprofix/bomberrun/internal/spritegrid"
 )
 
 func TestRun(t *testing.T) {

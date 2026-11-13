@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/comprofix/gameskeleton/internal/config"
+	"github.com/comprofix/bomberrun/internal/config"
 )
 
 const sr = config.AudioSampleRate
