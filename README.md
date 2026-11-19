@@ -2,7 +2,7 @@
 
 Created from [gameskeleton](https://github.com/comprofix/gameskeleton) v0.5.1.
 
-A 1943bj-inspired arcade shooter with faithful combat, enemy movement, scoring, weapons, power-ups, and life-bar mechanics, expanded with original worlds, themes, and bosses.
+An original, clean-slate arcade shooter. It is informed by independent research into classic arcade shooters and shaped by owner-approved design decisions; it is not a recreation of any existing game. Version 1 is planned as five World War II levels (Ocean, River / Jungle, Desert, City and Military Base). The design is still being consolidated and no gameplay has been implemented yet.
 
 ## Download
 
@@ -31,10 +31,14 @@ go test ./...
 go build -o bin/ ./cmd/bomberrun
 ```
 
-## Personal documents
+## Private working documents
 
-`DESIGN.md` and `PLAN.md` are personal working documents. `.gitignore` keeps
-them out of git, so back them up somewhere else. `AGENTS.md` is tracked and contains the shared project guidance. `CLAUDE.md` is a compatibility hand-off for Claude Code. Keep personal instructions in the local, untracked configuration supported by your coding agent.
+`DESIGN.md`, `PLAN.md`, `AGENTS.md` and `CLAUDE.md` are private working
+documents and are not part of this repository. In a working copy they are
+untracked symbolic links to canonical files kept in a separate private notes
+repository, and `.gitignore` keeps them out of Git. Keep personal agent
+instructions in the local, untracked configuration supported by your coding
+agent (for example `CLAUDE.local.md`).
 
 ## License
 
