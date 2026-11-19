@@ -1,6 +1,7 @@
 # Personal working documents and agent-specific local configuration (not tracked).
 AGENTS.md
 CLAUDE.md
+CLAUDE.local.md
 DESIGN.md
 PLAN.md
 .mcp.json
