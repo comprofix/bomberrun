@@ -1,6 +1,4 @@
 # Personal working documents and agent-specific local configuration (not tracked).
-# AGENTS.md is a link to the canonical copy in the private project-notes repository;
-# CLAUDE.md is the tracked compatibility entry point that points to it.
 AGENTS.md
 CLAUDE.md
 DESIGN.md
