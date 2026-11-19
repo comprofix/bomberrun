@@ -2,7 +2,7 @@
 # AGENTS.md is a link to the canonical copy in the private project-notes repository;
 # CLAUDE.md is the tracked compatibility entry point that points to it.
 AGENTS.md
-CLAUDE.local.md
+CLAUDE.md
 DESIGN.md
 PLAN.md
 .mcp.json
